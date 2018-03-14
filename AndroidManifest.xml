@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.irfan.dietchart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finallogo"
+        android:label=""
+        android:roundIcon="@drawable/finallogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".AgeDistributionActivity" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".FourthActivity" />
+        <activity android:name=".FifthActivity" />
+        <activity android:name=".AboutusActivity" />
+        <activity android:name=".HypertensionActivity" />
+        <activity android:name=".DiabetesActivity" />
+        <activity android:name=".NormalActivity" />
+        <activity android:name=".CalcualtorsActivity" />
+        <activity android:name=".BmiActivity" />
+        <activity android:name=".CalorieActivity" />
+        <activity android:name=".AgeDistributionActivity2" />
+        <activity android:name=".GroceryActivity" />
+        <activity android:name=".RoutineActivity" />
+        <activity android:name=".NutritionActivity" />
+        <activity android:name=".BulkingActivity" />
+        <activity android:name=".MuscleActivity" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".HeartActivity" />
+        <activity android:name=".ImageScroll" />
+        <activity android:name=".Webview" />
+        <activity android:name=".Image_Scroll2"></activity>
+    </application>
+
+</manifest>
