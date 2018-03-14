@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/nutrition"
+    tools:context="com.irfan.dietchart.DiabetesActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">\
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:text="Early Morning 6-7 am"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:text="Tea(Without sugar)(200ml) + High fibre biscuits (Sugar Free)"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breakfast 8-9 am"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="Dalia -30gm +Skim Milk -1 cup (without sugar) -(200ml) + suji upma with vegetable /Browm bread (2 slices) / moong dal cheela(1) + sambhar -1 serving"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mid Morning 11-12 am"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="Soup(Vegetable)"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunch (1-2 pm)"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="Roti -4 (preferably stuffed roti with green leafy vegetables) + Mixed vegetable sabji (2 servings,200-250 gms) + chicken (5- -100gm) + Curd -1 serving(sugar free) + salad -before meal"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evening(4-5 pm)"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="High fibre biscuits -3 (no sugar) + snack (without sugar) - 30-gm "
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Evening Soup(6-7 pm)"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="Soup (home made)"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinner(8-9 pm)"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="Roti -4 (preferably stuffed roti with green leafy vegetabel ,Vegetable dalia + soyabeen /dal +mixed vegetable sabji (2 serving ,200-250 gms)+curd -1 serving +salad -before meal"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bedtime(10 pm)"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="1 cup skim  milk (without sugar)"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/nutrition"
+    tools:context="com.irfan.dietchart.FirstActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">\
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="times new roman"
+        android:text="Early Morning 6-7 am"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="20dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15dp"
+    android:fontFamily="times new roman"
+    android:textStyle="bold"
+    android:text="High fibre biscuit -2 nos dipped in water"
+    android:gravity="center"
+
+    android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast 8-9 am"
+            android:background="@android:color/holo_orange_light"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:fontFamily="times new roman"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="times new roman"
+            android:textSize="15dp"
+            android:text="Skim Milk/bournvita/horlicks,dosa/upma,Egg white omletta/Banana"
+            android:gravity="center"
+            android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mid Morning 11-12 am"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Stewed Apple"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunch (1-2 pm)"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:background="@android:color/holo_orange_light"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:fontFamily="times new roman"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="times new roman"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Kirchi/Soft rice,Seasonal Vegetable boil(200-250 gms),Halwa,1 cup low fat Yoghurt/Curd"
+            android:gravity="center"
+            android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evening(4-5 pm)"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="Fruits Juices(Orange/Lemon/Pineapple)"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evening Soup(6-7 pm)"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:text="Any veg soup(no oil/no fat),fruits-pomegranate/lemon/banana."
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinner(8-9 pm)"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Veg Dahlia/Kichri/Rice,Dal,Boil,Mashed potato/Brocoli/Any veg boil,kheer/Custard"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bedtime(10 pm)"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="1 cup skim milk"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

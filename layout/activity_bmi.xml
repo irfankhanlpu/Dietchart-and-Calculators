@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/nutrition"
+    android:orientation="vertical"
+    tools:context="com.irfan.dietchart.BmiActivity">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BMI"
+        android:fontFamily="times new roman"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculator"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="WEIGHT "
+        android:id="@+id/tv3"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:typeface="serif" />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="IN KGs"
+        android:textColorHint="@android:color/black"
+        android:ems="10"
+        android:maxLength="3"
+        style="@style/editText_style"
+        android:textColor="@android:color/black"
+        android:fadingEdgeLength="10dp"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" >
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:text="HEIGHT "
+        android:textColor="@android:color/black"
+        android:fontFamily="times new roman"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:hint="IN CMs"
+        android:maxLength="3"
+        style="@style/editText_style"
+        android:textColor="@android:color/black"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+    </EditText>
+   <Button
+        android:id="@+id/ib1"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fadingEdge="vertical"
+        android:longClickable="true"
+        android:textColor="@android:color/black"
+        android:nextFocusRight="@android:color/black"
+        android:fontFamily="times new roman"
+        android:background="@drawable/button"
+        android:text="Calculate"
+        android:visibility="visible" />
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:src="@drawable/bmichart"
+      android:layout_marginTop="10dp"/>
+</LinearLayout>

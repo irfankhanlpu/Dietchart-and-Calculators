@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/nutrition"
+    tools:context="com.irfan.dietchart.NutritionActivity">
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textStyle="bold"
+             android:fontFamily="times new roman"
+             android:textSize="30dp"
+             android:text="Pillers of Nutrition"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:layout_margin="20dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+          android:textColor="@android:color/black"
+             android:textSize="15dp"
+             android:text="Not eating the right food to support intense activity only holds you back.  The golden rule of any fitness program or lifestyle is that nutrition is king which matters a lot for fitness"
+             android:layout_gravity="center"
+             android:fontFamily="times new roman"
+             android:layout_margin="10dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="15dp"
+             android:fontFamily="times new roman"
+             android:text="Poor recovery between workouts can usually be tracked to a lock of nutritional support, Muscles fatique during a workout is normal ; waking up and feeling like your body took a beating is not."
+             android:layout_gravity="center"
+
+             android:layout_margin="10dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="15dp"
+             android:fontFamily="times new roman"
+             android:text="without a proper nutrition redimen to complement your active lifestyle, you could be wasting your afforts."
+             android:layout_gravity="center"
+
+             android:layout_margin="10dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="25dp"
+             android:fontFamily="times new roman"
+             android:textStyle="bold"
+             android:text="Eat Six Times A Day"
+             android:layout_gravity="center"
+             android:layout_margin="20dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="15dp"
+             android:fontFamily="times new roman"
+             android:text="Fuel your body with multiple small meals and snacks each day to keep your blood-sugar levels under control and your metabolism steady and to simulate the production of new muscles."
+             android:layout_gravity="center"
+
+             android:layout_margin="10dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="15dp"
+             android:fontFamily="times new roman"
+             android:textStyle="bold"
+             android:text="Limit Processed Foods"
+             android:layout_gravity="center"
+             android:layout_margin="10dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="15dp"
+             android:fontFamily="times new roman"
+             android:text="Whether it comes in a box , a carton or a bag , if it's got a label or brand name, it is likely highly processed and not worth eating.  Remove these high- calorie , nutrient-poor foods from your life and you'll be much more likely to stick to your new years resolution."
+             android:layout_gravity="center"
+
+             android:layout_margin="10dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="15dp"
+             android:fontFamily="times new roman"
+             android:textStyle="bold"
+             android:text="Stay Hydrated"
+             android:layout_gravity="center"
+             android:layout_margin="10dp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="15dp"
+             android:text="Drink Water and calorie -free beverages to keep your performance in the gym at its peak. Avoid sugar-laden drinks that will fatten your waistline and sebotage your body's antioxident defense systems."
+             android:layout_gravity="center"
+             android:fontFamily="times new roman"
+             android:layout_margin="10dp"/>
+     </LinearLayout>
+ </ScrollView>
+</LinearLayout>

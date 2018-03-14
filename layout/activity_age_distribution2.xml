@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context="com.irfan.dietchart.AgeDistributionActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click On Required Diet Chart Age of Female"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+
+
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatefirst">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/img1"
+                    android:layout_margin="0dp"
+                    android:src="@drawable/girlone"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Age 1-6"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:fontFamily="times new roman"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btn1"
+
+                    android:layout_toRightOf="@+id/img1"
+                    android:layout_margin="3dp"
+
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatesecond">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/img2"
+                    android:layout_margin="0dp"
+                    android:src="@drawable/munni"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Age 7-12"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:layout_toRightOf="@+id/img2"
+                    android:fontFamily="times new roman"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btn2"
+                    android:layout_margin="3dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatethird">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/img3"
+                    android:layout_margin="0dp"
+                    android:src="@drawable/alia"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Age 13-19"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:layout_toRightOf="@+id/img3"
+                    android:fontFamily="times new roman"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btn3"
+                    android:layout_margin="3dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatefourth">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/img4"
+                    android:layout_margin="0dp"
+                    android:src="@drawable/madhuri"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Age 20-59"
+                    android:layout_toRightOf="@+id/img4"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:fontFamily="times new roman"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btn4"
+                    android:layout_margin="3dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatefifth">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/img5"
+                    android:layout_margin="0dp"
+                    android:src="@drawable/abovesixtyw"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Age Above 60"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:fontFamily="times new roman"
+                    android:layout_toRightOf="@+id/img5"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btn5"
+                    android:layout_margin="3dp"
+                    />
+            </RelativeLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To Calculate "
+                android:gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="times new roman"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:id="@+id/btn7"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/nutrition"
+    tools:context="com.irfan.dietchart.CalorieActivity">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calorie "
+        android:textColor="@android:color/white"
+        android:fontFamily="times new roman"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculator"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:hint="WEIGHT (IN KGs)"
+        style="@style/editText_style"
+        android:textColor="@android:color/white"
+        android:ems="10"
+        android:maxLength="3"
+        android:fadingEdgeLength="10dp"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:hint="HEIGHT(IN CMs)"
+        android:maxLength="3"
+        style="@style/editText_style"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+    </EditText>
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="AGE(IN NUMBER)"
+        android:maxLength="3"
+        style="@style/editText_style"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"
+        android:ems="10"
+        android:textColorHint="@android:color/black"
+        android:inputType="numberDecimal" >
+    </EditText>
+    <Button
+        android:id="@+id/ib1"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fadingEdge="vertical"
+        android:longClickable="true"
+        android:background="@drawable/button"
+        android:nextFocusRight="@android:color/black"
+        android:textSize="20dp"
+        android:text="Calculate"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:src="@drawable/caloriechart"/>
+
+</LinearLayout>

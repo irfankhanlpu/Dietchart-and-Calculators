@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/nutrition"
+    android:layout_height="match_parent"
+    tools:context="com.irfan.dietchart.BulkingActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:text="Beast Bulking Plan"
+                android:textSize="25dp"
+                android:layout_margin="20dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/black"
+                android:text="Eat like a beast"
+                android:layout_margin="15dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+               android:layout_gravity="center"
+                android:text="It's enough food to help him grow muscle, but not so much that he cant't be photo-ready in 60 days ! "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+
+              android:layout_gravity="center"
+                android:text="This is my last bulking plan. It may not work perfectly for you, so feel free to eat more , less or even substitute foods, but keep the emphasis on frequent protein ,quality calorie and ample carbohydrate. Try it out , and good luck with your gain! "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/black"
+                android:text="Meal 1"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="Egg whites \n lean meat \n oatmeal \nblueberries"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Meal 2"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:fontFamily="times new roman"
+                android:layout_gravity="center"
+                android:text="Chicken \n white rice \n Broccoli "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Meal 3"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:fontFamily="times new roman"
+                android:layout_gravity="center"
+                android:text="Turkey(Lean) \n Sweet potato \n Asparagus"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Meal 4 :Post workout"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="Beast Sports Nutrition 100% Beast whey"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Meal 5 : Afternoon snack"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="P28 bagal \n Almond Butter "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Meal 6: Dinner"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="Steak(Sirloin) \n Sweet potato \n Green Beans \n Almonds"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Meal 7: Evening Snack"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="Egg whites \n Almond Butter"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

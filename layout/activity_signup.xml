@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/nutrition"
+    tools:context="com.irfan.dietchart.SignupActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgp"
+        android:layout_marginTop="-10dp"
+        android:src="@mipmap/login_logo"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="Upload photo"
+        android:onClick="gotocamera"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:layout_marginTop="-20dp"
+        android:id="@+id/btn2"/>
+    <LinearLayout
+        android:alpha="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="-10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"
+           android:textStyle="bold"
+            style="@style/editText_style"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:maxLength="20"
+            android:fontFamily="times new roman"
+            android:layout_margin="12dp"
+            android:hint="User Name"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"
+            android:textStyle="bold"
+            android:maxLength="10"
+            style="@style/editText_style"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:fontFamily="times new roman"
+            android:hint="Password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold"
+            android:maxLength="12"
+            style="@style/editText_style"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:fontFamily="times new roman"
+            android:id="@+id/text3"
+            android:hint="Mobile "/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold"
+            android:maxLength="20"
+            android:textSize="20dp"
+            style="@style/editText_style"
+            android:fontFamily="times new roman"
+            android:id="@+id/text4"
+            android:hint="Email"/>
+        <Button
+            android:layout_width="225dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnins"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="Sign Up"
+            android:clickable="true"
+            android:onClick="signUp"/>
+    </LinearLayout>
+</LinearLayout>

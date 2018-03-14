@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/nutrition"
+    android:layout_height="match_parent"
+    tools:context="com.irfan.dietchart.RoutineActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A good example of a diet plan for a true natural body builder who needs about 3700 calorie per day. The diet plan consist of 5 solid meals and 3 proteins shakes in between the meals .This results in a total of 8 small meals per day, each two and a half hours apart."
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:fontFamily="times new roman"
+            android:layout_margin="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+           android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="times new roman"
+            android:text="07:00 AM wake up"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="times new roman"
+            android:gravity="center"
+            android:text="07:30 AM breakfast: 500 kcal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:fontFamily="times new roman"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="10:00 AM protein shake: 400 Kcal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:fontFamily="times new roman"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="12:30 AM lunch: 800 Kcal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="times new roman"
+            android:gravity="center"
+            android:text="15:00 AM Protein shake : 400 Kcal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:fontFamily="times new roman"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="17:30 AM dinner : 550 kcal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:fontFamily="times new roman"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="19:00 AM workout"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="times new roman"
+            android:text="20:00 AM Post-workout protein shake : 400 kcal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:fontFamily="times new roman"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="21:00 AM snack : 400 kcal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="times new roman"
+            android:gravity="center"
+            android:text="22:30 AM bed time meal: 300 kcal"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+            android:fontFamily="times new roman"
+        android:gravity="center"
+        android:text="23:00 AM bed time"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

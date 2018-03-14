@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@mipmap/nutrition"
+    tools:context="com.irfan.dietchart.MuscleActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:text="Perfect Muscle-Building Meals"
+                android:textSize="25dp"
+                android:layout_margin="20dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Between work,family obligation and the occasional weekly hangout with the guys, finding time to meat all of your health and fitness goals can prove to be quite challenging. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="1.Hydrate"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:fontFamily="times new roman"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="After spending six to eight hours horizontal in bed,your body is likely dehydrate. Taking into account that 75% of muscle tissue is water the lack of hydration can really put a damper on your muscle- building abilities."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="2. Eat a high-quality breakfast"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="While the intermittent fasting craze has taken off as of late, breakfast is still an important meal especially for guys looking to build muscle . Your muscles likely aren't breaking doen lack of nutriotion after only six to eight hour without food."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/black"
+                android:text="3. eat a high protein snack"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="Like many other arenas, the best offence against snacking temptation is a good defence."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:fontFamily="times new roman"
+                android:text="4. Hydrate"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Like many of your other coworkers, you've likely downed a few cups of cofee by mind-morning."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/black"
+                android:text="5. Workout"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:layout_gravity="center"
+                android:text="Afternoon workout are beneficial for several reasons. First , Your body is likely more warned up than first thing in the morning leading to less risk of injury."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"
+                android:textColor="@android:color/black"
+                android:text="6. Cottage cheese"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Cottage cheese's muscle building powers come from two different components. Cottage cheese contains a high proportion of casein, the slow-digesting dairy protein. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:fontFamily="times new roman"
+                android:text="7. Eat a high protein lunch"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:fontFamily="times new roman"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:text="Protein is crucial to take in, particularly post-workout. Alongside your serving of this muscle-building macronutrient , be sure to include some fast-digesting carbohydrates like potatoes or rice."/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
